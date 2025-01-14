@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.markdown-body {
+  font-family: "Inter", sans-serif;
+  line-height: 1.8;
+  font-size: 1rem;
+}
+
+.markdown-body h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #1a202c;
+}
+
+.markdown-body h2 {
+  font-size: 1.75rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.markdown-body p {
+  margin-bottom: 1rem;
+  color: #4a5568;
+}
+
+.markdown-body ul {
+  list-style: disc;
+  margin-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+.markdown-body code {
+  background: #edf2f7;
+  padding: 0.2rem 0.4rem;
+  border-radius: 0.25rem;
+  font-family: "Source Code Pro", monospace;
+}
